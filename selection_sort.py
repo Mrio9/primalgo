@@ -8,8 +8,7 @@ def selection_sort(nums):
         nums[i], nums[min_idx] = nums[min_idx], nums[i]
         print("The array after",i+1,"pass",nums)
 
-    print ("The sorted array is : ",nums)
-
+    print ("Sorted array:",nums)
 temp = int(input("Enter the  numbers elements to be sorted: "))
 nums = []
 for i in range(temp):
